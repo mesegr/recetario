@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="Images/Webicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Carousel\carousel.css" />
+    <link rel="stylesheet" href="Search/search.css" />
+    <title>Recetario</title>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <header class="containerItem header">
+            <a href="/index.html">
+                <img class="headerLogo" src="/Images/Logo.png" alt="Recetario, ir a la página principal">
+            </a>
+            <div class="headerText">
+                <h1>Recetas fáciles, <span>sabor de casa</b></h1>
+            </div>
+        </header>
+        <main class="containerItem main">
+            <search class="searchBar">
+                <form>
+                    <input type="search" name="q" placeholder="Buscar recetas..." aria-label="Buscar recetas">
+                    <button type="submit">Buscar</button>
+                </form>
+            </search>
+
+            <p class="mainText textoLargo">
+                En <strong>Recetario</strong> encontrarás <strong>todas las recetas</strong>
+                que necesitas para cocinar en casa: platos, postres y esas
+                <strong>recetas de toda la vida</strong> que nunca fallan. Todo explicado
+                <strong>paso a paso</strong>, con <strong>ingredientes claros</strong> y
+                <strong>sin complicaciones</strong>, para que cocinar sea un placer y no un problema.
+            </p>
+
+            <p class="mainText textoCorto">
+                En <strong>Recetario</strong> encontrarás <strong>todas las recetas</strong>
+                para cocinar en casa: platos, postres y esas recetas de toda la vida, <strong>paso a paso</strong>
+                y sin complicaciones para hacer en <strong>casa</strong>.
+            </p>
+
+            <h1 class="mainH1">Recetas del mes</h1>
+
+            <section class="carousel" aria-label="Recetas del mes">
+                <button class="carouselBtn prev" aria-label="Anterior">&#8249;</button>
+                <div class="carouselViewport">
+                    <div class="carouselTrack"></div>
+                </div>
+                <button class="carouselBtn next" aria-label="Siguiente">&#8250;</button>
+            </section>
+
+        </main>
+        <footer class="containerItem footer">
+            <div class="footerSeparator"></div>
+            <div class="footerContent">
+                <div class="footerCol">
+                    <h3>Contacto</h3>
+                    <address>
+                        <p><a href="">contacto@recetario.com</a></p>
+                        <p><a href="">600 000 000</a></p>
+                        <p><a href="">Vigo, Galicia</a></p>
+                    </address>
+                </div>
+
+                <div class="footerCol">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Aviso legal</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <p class="copyright">© 2026 Recetario. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="Search/js/search.js" defer></script>
+    <script src="Carousel\js\carousel.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,705 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* ---------------------------------------------MAINCONTAINER------------------------------------------------ */
+
+.mainContainer {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 15px;
+  column-gap: 0;
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+}
+
+/* ---------------------------------------------HEADER------------------------------------------------ */
+
+.header {
+  position: relative;
+  justify-content: flex-start;
+  padding-left: 2vw;
+}
+
+/*------------SERCHBAR------------*/
+
+.header .searchBar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(1500px, 50vw);
+  max-width: none;
+  flex: none;
+}
+
+/* ---------------------------------------------MAIN------------------------------------------------ */
+
+.main {
+  border-radius: 20px 0px 0px 20px;
+  margin: 0 0 0 10vw;
+}
+
+/*------------MAINIMAGE------------*/
+
+.headImg {
+  margin: 40px;
+  border-radius: 20px;
+  width: 85%;
+  aspect-ratio: 21/9;
+  object-fit: cover;
+}
+
+/*------------TITULO------------*/
+
+.titulo {
+  margin: 0px 10px 0px 40px;
+  width: 90%;
+}
+
+/*------------DATOS------------*/
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0px 0px 20px 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.meta li {
+  padding: 0.3rem 0.9rem;
+  background: rgb(from var(--searchBorder) r g b / 15%);
+  border: 1px solid var(--header);
+  border-radius: 999px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #3b2a22;
+}
+
+/*------------INGREDIENTES------------*/
+
+.descripcion,
+.ingredientes {
+  margin: 10px 30px 10px 40px;
+  width: 80%;
+  line-height: 1.4;
+  font-size: 1.2rem;
+}
+
+/* ---------------------------------------------INFONUTRICIONAL------------------------------------------------ */
+
+.recipeDetails {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.55fr);
+  gap: 2rem;
+  align-items: start;
+  width: 85%;
+  margin: 0 0 0 40px;
+}
+
+.ingredientsBlock,
+.nutritionBlock {
+  min-width: 0;
+}
+
+.nutritionBlock {
+  width: min(100%, 390px);
+  justify-self: end;
+}
+
+.ingredientesTitle,
+.nutritionTitle {
+  margin: 25px 30px 10px 40px;
+}
+
+.recipeDetails .ingredientesTitle,
+.recipeDetails .nutritionTitle {
+  margin-left: 0;
+}
+
+.recipeDetails .ingredientes {
+  margin-left: 0;
+  width: 100%;
+}
+
+.nutritionTable {
+  width: 100%;
+  margin: 10px 0;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: var(--headerText);
+  background: rgb(from var(--search) r g b / 55%);
+  border: 1px solid var(--searchBorder);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.nutritionTable th,
+.nutritionTable td {
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid var(--searchBorder);
+}
+
+.nutritionTable th {
+  background: rgb(from var(--searchBorder) r g b / 35%);
+  font-weight: 800;
+}
+
+.nutritionTable td:last-child,
+.nutritionTable th:last-child {
+  text-align: right;
+}
+
+.nutritionTable tr:last-child td {
+  border-bottom: none;
+}
+
+/*------------PREPARACION------------*/
+
+.prepTitle {
+  margin: 25px 30px 10px 40px;
+}
+
+.pasos {
+  margin: 10px 30px 30px 40px;
+  width: 80%;
+  line-height: 1.4;
+  font-size: 1.2rem;
+}
+
+.prepTitle,
+.pasos {
+  margin-left: 40px;
+}
+
+.pasos li {
+  margin-bottom: 0.8rem;
+}
+
+/* ---------------------------------------------ASIDE------------------------------------------------ */
+
+.aside {
+  grid-area: aside;
+  background: linear-gradient(to right, var(--main), var(--aside) 40%);
+  border-radius: 0px 20px 20px 0px;
+  margin: 0 10vw 0 0;
+}
+
+.menuBtn,
+.asideClose {
+  display: none;
+}
+
+/*------------CONTAINER------------*/
+
+.asideContainer {
+  margin-left: 40px;
+  margin-top: 35px;
+}
+
+/*------------TITULOS------------*/
+
+.aside h2 {
+  border-left: 4px solid var(--headerTextSpan);
+  padding-left: 0.6rem;
+}
+
+/*------------IMAGENESMASPLATOS------------*/
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-right: 40px;
+  margin-bottom: 1.5rem;
+}
+
+.miniCard {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.miniCard img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.miniCard:hover img {
+  transform: scale(1.1);
+}
+
+.miniCard span {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 1.2rem 0.75rem 0.5rem;
+  background: linear-gradient(transparent, var(--shadowBlack));
+  color: var(--search);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.cardsVacio {
+  margin: 0 0 1.5rem;
+  color: var(--footer);
+  font-style: italic;
+}
+
+/*------------RECIENTES------------*/
+
+.recientes {
+  margin-top: 40px;
+}
+
+/*------------IMAGENESRECIENTES------------*/
+
+.cards.compact .miniCard {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  aspect-ratio: auto;
+  overflow: visible;
+}
+
+.cards.compact .miniCard img {
+  flex: none;
+  width: 140px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.cards.compact .miniCard:hover img {
+  transform: none;
+}
+
+.cards.compact .miniCard span {
+  position: static;
+  padding: 0;
+  background: none;
+  color: var(--headerText);
+  font-size: 1rem;
+}
+
+.cards.compact .miniCard:hover span {
+  text-decoration: underline;
+}
+
+/*------------TABLETS------------*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+  .mainContainer {
+    grid-template-columns: 5fr 2fr;
+    gap: 10px;
+    column-gap: 0;
+  }
+
+  .header {
+    padding-left: 1.5vw;
+  }
+
+  .headerLogo {
+    height: 88%;
+  }
+
+  .header .searchBar {
+    width: 42vw;
+  }
+
+  .searchBar button {
+    display: none;
+  }
+
+  .main {
+    margin: 0 0 0 5vw;
+    border-radius: 16px 0 0 16px;
+  }
+
+  .headImg {
+    margin: 25px;
+    width: 85%;
+    border-radius: 16px;
+  }
+
+  .titulo {
+    margin-left: 25px;
+    font-size: 2rem;
+  }
+
+  .meta {
+    margin-left: 25px;
+    margin-bottom: 15px;
+  }
+
+  .meta li {
+    padding: 0.25rem 0.7rem;
+    font-size: 0.8rem;
+  }
+
+  .descripcion,
+  .ingredientes,
+  .pasos {
+    font-size: 1rem;
+  }
+
+  .descripcion {
+    margin-left: 25px;
+    width: 85%;
+  }
+
+  .recipeDetails {
+    grid-template-columns: minmax(0, 1fr) minmax(190px, 0.45fr);
+    gap: 1.25rem;
+    width: 85%;
+    margin-left: 25px;
+  }
+
+  .recipeDetails .ingredientesTitle,
+  .recipeDetails .nutritionTitle,
+  .prepTitle {
+    font-size: 1.35rem;
+  }
+
+  .recipeDetails .ingredientesTitle,
+  .recipeDetails .nutritionTitle {
+    margin-left: 0;
+  }
+
+  .recipeDetails .ingredientes {
+    margin-left: 0;
+  }
+
+  .pasos {
+    margin-left: 25px;
+  }
+
+  .prepTitle {
+    margin-left: 25px;
+  }
+
+  .nutritionBlock {
+    max-width: 280px;
+  }
+
+  .nutritionTable {
+    font-size: 0.82rem;
+  }
+
+  .nutritionTable th,
+  .nutritionTable td {
+    padding: 0.5rem 0.55rem;
+  }
+
+  .aside {
+    margin-right: 5vw;
+    border-radius: 0 16px 16px 0;
+  }
+
+  .asideContainer {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .cards {
+    margin-right: 25px;
+    gap: 0.55rem;
+  }
+
+  .miniCard span,
+  .cards.compact .miniCard span {
+    font-size: 0.85rem;
+  }
+
+  .cards.compact .miniCard img {
+    width: 105px;
+    height: 60px;
+  }
+    .recipeDetails {
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 0.45fr);
+    gap: 1.25rem;
+  }
+
+  .nutritionBlock {
+    max-width: 310px;
+  }
+
+  .nutritionTitle {
+    font-size: 1.35rem;
+  }
+
+  .nutritionTable {
+    font-size: 0.88rem;
+  }
+
+  .nutritionTable th,
+  .nutritionTable td {
+    padding: 0.55rem 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  body {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .mainContainer {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 15px;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .headerLogo {
+    margin: 5px 0 0 -7.5px;
+  }
+
+  .menuBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    background: var(--search);
+    border: 2px solid var(--searchBorder);
+    border-radius: 12px;
+    color: var(--headerText);
+    cursor: pointer;
+    margin: 0 25px;
+  }
+
+  .main {
+    box-sizing: border-box;
+    min-width: 0;
+    margin: 0 4vw;
+    border-radius: 20px;
+  }
+
+  .headImg {
+    margin: 3.5% 3.5%;
+    border-radius: 20px;
+    width: 93%;
+    aspect-ratio: 18/9;
+    object-fit: cover;
+  }
+
+  .titulo {
+    margin: 0px 10px 0px 3.5%;
+    width: auto;
+    min-width: 0;
+    font-size: 1.75rem;
+  }
+
+  .meta {
+    gap: 0.5rem;
+    margin: 0px 0px 10px 3.5%;
+  }
+
+  .meta li {
+    font-size: 0.8rem;
+  }
+
+  .descripcion {
+    margin: 0 3.5%;
+    width: auto;
+    font-size: 0.9rem;
+  }
+
+  .ingredientes {
+    margin: 0 3.5%;
+    width: auto;
+    font-size: 0.9rem;
+  }
+
+  .recipeDetails {
+    display: block;
+    width: auto;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .nutritionBlock {
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+  }
+
+  .ingredientesTitle,
+  .nutritionTitle,
+  .prepTitle {
+    margin: 10px 3.5%;
+    font-size: 1.35rem;
+  }
+
+  .recipeDetails .ingredientesTitle,
+  .recipeDetails .nutritionTitle {
+    margin-left: 3.5%;
+  }
+
+  .recipeDetails .ingredientes,
+  .recipeDetails .nutritionTable {
+    margin-right: 3.5%;
+    margin-left: 3.5%;
+    width: 93%;
+  }
+
+  .nutritionTable {
+    font-size: 0.9rem;
+  }
+
+  .pasos {
+    margin: 0 3.5%;
+    line-height: 1.3;
+    font-size: 0.9rem;
+  }
+
+  .pasos li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer {
+    justify-content: flex-start;
+    height: auto;
+    max-height: none;
+    display: flex;
+    flex-direction: column
+  }
+
+  .footerSeparator {
+    height: 20px;
+  }
+
+  .footerContent {
+    gap: 10%;
+  }
+
+  .footerCol {
+    flex: 0 0 auto;
+  }
+
+  .footerCol h3 {
+    margin: 8 0 0.3rem;
+    font-size: 1rem;
+    color: var(--main);
+  }
+
+  .footerCol p,
+  .footerCol li {
+    margin: 0.2rem 0;
+    font-size: 0.8rem;
+  }
+
+  .footerCol li:last-child {
+    margin-bottom: 5;
+  }
+
+  .copyright {
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+    margin-top: auto;
+  }
+
+  .mainContainer .aside {
+    grid-area: auto;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    box-sizing: border-box;
+    width: min(85vw, 340px);
+    height: 100dvh;
+    margin: 0;
+    padding: 1rem;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    background: var(--aside);
+    border-radius: 20px 0 0 20px;
+    box-shadow: -8px 0 24px var(--shadowBlack);
+    transform: translateX(100%);
+    /* escondido a la derecha */
+    visibility: hidden;
+    transition: transform 0.3s ease, visibility 0s linear 0.3s;
+  }
+
+  .mainContainer .aside.open {
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform 0.3s ease;
+  }
+
+  body.menuOpen {
+    overflow: hidden;
+  }
+
+  body.menuOpen::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.35);
+  }
+
+  .asideClose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0.5rem auto;
+    padding: 0;
+    background: var(--search);
+    border: 2px solid var(--searchBorder);
+    border-radius: 12px;
+    color: var(--headerText);
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .asideContainer {
+    margin: 0;
+  }
+
+  .cards {
+    margin-right: 0;
+  }
+
+  .aside .searchBar form {
+    width: 100%;
+    margin: 0.5rem 0 1rem;
+    height: auto;
+  }
+}

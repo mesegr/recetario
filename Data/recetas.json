@@ -1,0 +1,603 @@
+[
+  {
+    "id": "tortilla-de-patatas",
+    "titulo": "Tortilla de patatas",
+    "categoria": "Platos principales",
+    "tiempo": "45 min",
+    "dificultad": "Media",
+    "raciones": 4,
+    "nutricion": { "Calorías": "320 kcal", "Proteínas": "15 g", "Hidratos": "24 g", "Grasas": "19 g" },
+    "imagen": "Images/Recetas/tortilla.jpg",
+    "descripcion": "La tortilla de patatas es probablemente el plato más querido de la cocina española: sencilla, económica y capaz de triunfar a cualquier hora, ya sea como comida principal, en un bocadillo o de pincho en un bar. El secreto está en pochar las patatas a fuego suave para que queden tiernas y casi cremosas, y en cuajar el huevo sin pasarse, para que el centro se mantenga jugoso. Esta versión lleva cebolla, que aporta dulzor y humedad, y es de las que se disfrutan igual recién hecha que fría al día siguiente.",
+    "ingredientes": [
+      "6 huevos",
+      "4 patatas medianas",
+      "1 cebolla",
+      "Aceite de oliva",
+      "Sal"
+    ],
+    "pasos": [
+      "Pela las patatas, lávalas y sécalas bien con un paño. Córtalas en láminas finas de unos 3 mm; si todas tienen un grosor parecido, se harán a la vez y quedarán uniformes.",
+      "Pela la cebolla y córtala en juliana fina. Pon las patatas y la cebolla en un bol, añade una pizca de sal y mézclalo todo con las manos.",
+      "Calienta abundante aceite de oliva en una sartén amplia a fuego medio. Cuando esté caliente, añade las patatas y la cebolla: deben quedar casi cubiertas por el aceite.",
+      "Pocha durante 20-25 minutos a fuego medio-bajo, removiendo de vez en cuando, hasta que las patatas estén tiernas pero sin dorarse. Si se tuestan demasiado, la tortilla perderá ese punto suave y meloso.",
+      "Mientras tanto, bate los 6 huevos en un bol grande con una pizca de sal, hasta que no queden restos de clara.",
+      "Escurre las patatas y la cebolla en un colador, reservando el aceite. Mézclalas con el huevo batido y déjalo reposar 5-10 minutos: así las patatas se empapan de huevo y la tortilla queda más jugosa.",
+      "Calienta una sartén antiadherente con una cucharada del aceite reservado a fuego medio. Vierte la mezcla y cuaja durante 3-4 minutos, moviendo la sartén y redondeando los bordes con una espátula.",
+      "Cuando los bordes estén firmes, coloca un plato grande encima, dale la vuelta con decisión y desliza la tortilla de nuevo a la sartén. Cuaja 2-3 minutos más por el otro lado, según lo jugosa que te guste.",
+      "Pasa la tortilla a un plato y déjala reposar unos minutos antes de cortarla. Está mejor templada que muy caliente."
+    ]
+  },
+  {
+    "id": "gazpacho",
+    "titulo": "Gazpacho andaluz",
+    "categoria": "Entrantes",
+    "tiempo": "15 min",
+    "dificultad": "Fácil",
+    "raciones": 4,
+    "nutricion": { "Calorías": "150 kcal", "Proteínas": "3 g", "Hidratos": "12 g", "Grasas": "10 g" },
+    "imagen": "Images/Recetas/gazpacho.jpg",
+    "descripcion": "El gazpacho andaluz es la respuesta fresca de la cocina del sur al calor del verano: una sopa fría de tomate maduro, pepino y pimiento, aliñada con aceite de oliva y un toque de vinagre. Se prepara en diez minutos de batidora y, con unas horas de nevera, gana sabor y equilibrio. Es ligero, refrescante y versátil: se puede tomar en vaso, en cuenco con tropezones o como entrante antes de cualquier comida. La clave está en usar tomates muy maduros; sin ellos, el gazpacho se queda sin alma.",
+    "ingredientes": [
+      "1 kg de tomates maduros",
+      "1 pepino",
+      "1 pimiento verde",
+      "1 diente de ajo",
+      "Aceite de oliva",
+      "Vinagre",
+      "Sal"
+    ],
+    "pasos": [
+      "Lava bien los tomates, el pepino y el pimiento. Quita el rabillo de los tomates y córtalos en trozos grandes. Si quieres un gazpacho más fino, pélalos antes: haz una cruz en la base y sumérgelos 30 segundos en agua hirviendo.",
+      "Pela el pepino, retira las semillas del pimiento y trocea ambos. Pela el diente de ajo y quita el germen verde del centro, porque es lo que hace que repita.",
+      "Pon todas las verduras en el vaso de la batidora y añade una cucharadita de sal.",
+      "Tritura 2-3 minutos a máxima potencia, hasta que no se aprecie ningún trozo y la mezcla quede homogénea.",
+      "Con la batidora en marcha, añade poco a poco unos 80 ml de aceite de oliva (unas 5 cucharadas) y 2 cucharadas de vinagre. El aceite se emulsiona y el gazpacho adquiere un color anaranjado claro y una textura más sedosa.",
+      "Prueba y rectifica de sal y vinagre. Si está muy espeso, añade un poco de agua fría hasta lograr la textura que prefieras.",
+      "Para un resultado muy fino, pásalo por un colador apretando con un cucharón. Este paso es opcional, pero marca la diferencia.",
+      "Refrigéralo al menos 2 horas, mejor 4: el frío une los sabores. Sírvelo muy frío, con un hilo de aceite por encima y, si quieres, con tropezones de pepino y pimiento picados."
+    ]
+  },
+  {
+    "id": "paella-valenciana",
+    "titulo": "Paella de pollo y verduras",
+    "categoria": "Arroces",
+    "tiempo": "1 h",
+    "dificultad": "Difícil",
+    "raciones": 4,
+    "nutricion": { "Calorías": "510 kcal", "Proteínas": "27 g", "Hidratos": "62 g", "Grasas": "16 g" },
+    "imagen": "Images/Recetas/Paella.jpg",
+    "descripcion": "Esta paella de pollo y verduras es una versión sencilla y casera de uno de los grandes platos de la cocina mediterránea. Se prepara en una sola paella, con un sofrito base de pollo dorado, judías verdes y tomate, y un arroz bomba que absorbe todo el sabor del caldo y del azafrán. Es un plato para compartir y para cocinar con calma: lo importante es respetar las proporciones, no remover el arroz una vez echado y dejar que se forme el socarrat, esa capa tostada del fondo que es el tesoro de cualquier paella.",
+    "ingredientes": [
+      "300 g de arroz bomba",
+      "400 g de pollo troceado",
+      "200 g de judías verdes",
+      "1 tomate rallado",
+      "Azafrán",
+      "Caldo de pollo",
+      "Aceite de oliva",
+      "Sal"
+    ],
+    "pasos": [
+      "Prepara todo antes de encender el fuego: trocea el pollo en dados pequeños, corta las judías verdes en trozos de 3-4 cm y ralla el tomate. Calienta unos 750 ml de caldo de pollo con unas hebras de azafrán para que suelte color y aroma.",
+      "Calienta 4 cucharadas de aceite de oliva en la paella a fuego medio-alto, repartiéndolo bien por toda la base.",
+      "Sala el pollo y dóralo 8-10 minutos, removiendo de vez en cuando, hasta que esté bien dorado por todos los lados. Este dorado es lo que da sabor al arroz.",
+      "Añade las judías verdes y sofríelas unos 5 minutos junto al pollo.",
+      "Aparta el pollo y las judías hacia los bordes, echa el tomate rallado en el centro y cocínalo 3-4 minutos, hasta que pierda el agua y se oscurezca y espese.",
+      "Añade los 300 g de arroz bomba y rehógalo un minuto, removiendo para que se impregne del sofrito.",
+      "Vierte el caldo caliente con el azafrán y reparte el arroz de forma uniforme por toda la paella. Prueba el caldo y ajusta de sal: debe estar un poco más salado de lo normal, porque el arroz lo absorberá. A partir de aquí, no remuevas más.",
+      "Cuece 10 minutos a fuego fuerte y baja a fuego medio-bajo otros 8 minutos, hasta que el caldo se haya absorbido por completo.",
+      "Sube el fuego al máximo durante 30-60 segundos para formar el socarrat. Sabrás que está listo cuando oigas crepitar el arroz y huela a tostado; no te pases para que no se queme.",
+      "Retira del fuego, cubre la paella con un paño limpio y deja reposar 5 minutos antes de servir. Lleva el arroz suelto y con la capa tostada del fondo a cada plato."
+    ]
+  },
+  {
+    "id": "lentejas-estofadas",
+    "titulo": "Lentejas estofadas",
+    "categoria": "Platos de cuchara",
+    "tiempo": "50 min",
+    "dificultad": "Fácil",
+    "raciones": 4,
+    "nutricion": { "Calorías": "390 kcal", "Proteínas": "22 g", "Hidratos": "48 g", "Grasas": "12 g" },
+    "imagen": "Images/Recetas/lentejas.jpg",
+    "descripcion": "Las lentejas estofadas son comida de cuchara en estado puro: un plato de olla lento y generoso que sabe a cocina de abuela. Las legumbres se cuecen despacio con verduras, chorizo y laurel hasta quedar tiernas y envueltas en un caldo espeso y sabroso. Es una receta muy agradecida: gana al día siguiente, se congela bien y sirve de plato único en los días fríos. No necesitan remojo, pero sí paciencia y fuego suave.",
+    "ingredientes": [
+      "300 g de lentejas",
+      "1 zanahoria",
+      "1 cebolla",
+      "1 pimiento verde",
+      "2 dientes de ajo",
+      "1 chorizo",
+      "1 hoja de laurel",
+      "Aceite de oliva",
+      "Sal"
+    ],
+    "pasos": [
+      "Pon las lentejas en un colador, revísalas por si hay alguna piedrecita y lávalas bajo el grifo. No necesitan remojo.",
+      "Pela y pica la cebolla, el pimiento y la zanahoria en dados pequeños. Pica los ajos finos y corta el chorizo en rodajas gruesas.",
+      "En una olla amplia, calienta 3 cucharadas de aceite de oliva a fuego medio y sofríe la cebolla y el pimiento durante 5 minutos, hasta que estén blandos.",
+      "Añade el ajo y la zanahoria y cocina 2 minutos más. Incorpora el chorizo y dale unas vueltas para que suelte su grasa y su aroma.",
+      "Echa las lentejas y la hoja de laurel y remueve durante un minuto para que se impregnen del sofrito.",
+      "Cubre con agua fría hasta que sobresalga unos tres dedos por encima de las lentejas (aproximadamente 1,2 litros). Cuando rompa a hervir, retira la espuma de la superficie con una espumadera.",
+      "Baja el fuego al mínimo, tapa parcialmente y cuece 35-40 minutos, removiendo de vez en cuando. Si el caldo baja mucho, añade un chorro de agua caliente, nunca fría, para que las lentejas no se endurezcan.",
+      "Sala en los últimos 10 minutos de cocción, tras probar: el chorizo ya aporta bastante sal.",
+      "Retira el laurel y deja reposar las lentejas 10 minutos tapadas, para que el caldo espese. Si las quieres más cremosas, chafa unas pocas contra la pared de la olla. Sirve bien calientes."
+    ]
+  },
+  {
+    "id": "croquetas-de-jamon",
+    "titulo": "Croquetas de jamón",
+    "categoria": "Entrantes",
+    "tiempo": "1 h 30 min",
+    "dificultad": "Media",
+    "raciones": 6,
+    "nutricion": { "Calorías": "285 kcal", "Proteínas": "11 g", "Hidratos": "25 g", "Grasas": "15 g" },
+    "imagen": "Images/Recetas/croquetas.jpg",
+    "descripcion": "Las croquetas de jamón son el rey de las tapas: crujientes por fuera y con un interior cremoso que se deshace en la boca. La clave de unas buenas croquetas está en la bechamel, que tiene que quedar espesa pero sedosa, con el punto justo de nuez moscada y trocitos de jamón por todas partes. Es una receta que exige paciencia, sobre todo en el reposo en frío, pero el resultado compensa. Además, se pueden congelar ya empanadas para tener siempre a mano un aperitivo casero.",
+    "ingredientes": [
+      "100 g de jamón picado",
+      "80 g de mantequilla",
+      "80 g de harina",
+      "1 l de leche",
+      "Huevo y pan rallado",
+      "Nuez moscada",
+      "Aceite para freír"
+    ],
+    "pasos": [
+      "Calienta el litro de leche en un cazo sin que llegue a hervir y mantenla caliente. Si la añades fría, la bechamel hará grumos con más facilidad.",
+      "En una sartén honda o un cazo amplio, derrite los 80 g de mantequilla a fuego medio. Cuando empiece a espumar, añade el jamón picado y rehoga durante 1 minuto.",
+      "Añade los 80 g de harina de golpe y tuéstala 2 minutos sin dejar de remover con una cuchara de madera o unas varillas, hasta que pierda el sabor a crudo, sin que llegue a tomar color.",
+      "Vierte la leche caliente poco a poco, un cazo cada vez, removiendo con energía hasta que se integre antes de añadir más. Ralla un poco de nuez moscada.",
+      "Cocina 10-12 minutos a fuego medio-bajo sin dejar de remover, hasta obtener una masa espesa y brillante que se despegue de las paredes.",
+      "Prueba y rectifica de sal, teniendo en cuenta que el jamón ya aporta bastante. Extiende la masa en una fuente, cúbrela con film transparente en contacto con la masa y refrigérala al menos 4 horas, mejor toda la noche.",
+      "Prepara el rebozado: bate 2 huevos en un plato hondo y pon el pan rallado en otro.",
+      "Con dos cucharas o con las manos ligeramente enharinadas, toma porciones de masa y da forma ovalada. Pásalas por huevo y después por pan rallado; si quieres una costra más gruesa, repite el proceso.",
+      "Calienta abundante aceite a unos 180 °C (un trozo de pan debe freírse en pocos segundos) y fríe las croquetas en tandas, 2-3 minutos, hasta que estén bien doradas. No llenes demasiado la sartén para que el aceite no se enfríe.",
+      "Escúrrelas sobre papel absorbente y deja pasar 1-2 minutos antes de servir: por dentro están muy calientes."
+    ]
+  },
+  {
+    "id": "ensalada-cesar",
+    "titulo": "Ensalada César",
+    "categoria": "Ensaladas",
+    "tiempo": "20 min",
+    "dificultad": "Fácil",
+    "raciones": 2,
+    "nutricion": { "Calorías": "430 kcal", "Proteínas": "25 g", "Hidratos": "18 g", "Grasas": "28 g" },
+    "imagen": "Images/Recetas/ensaladacesar.jpg",
+    "descripcion": "La ensalada César es un clásico internacional que combina crujiente y cremoso: lechuga romana fresca, pollo a la plancha dorado, picatostes y lascas de parmesano, todo envuelto en una salsa potente. Es lo bastante completa para ser un plato único, rápida de preparar y muy fácil de adaptar a tu gusto. Si cuidas el punto del pollo y la sirves recién aliñada, tendrás un plato digno de restaurante en menos de veinte minutos.",
+    "ingredientes": [
+      "1 lechuga romana",
+      "2 pechugas de pollo",
+      "Picatostes",
+      "Queso parmesano",
+      "Salsa césar"
+    ],
+    "pasos": [
+      "Saca el pollo de la nevera 10-15 minutos antes de cocinarlo para que se haga de forma uniforme, y sécalo con papel de cocina.",
+      "Si las pechugas son gruesas, ábrelas en dos filetes más finos o aplánalas un poco con la palma de la mano; así se cocinan rápido y quedan jugosas. Sazónalas con sal.",
+      "Calienta una plancha o sartén con un hilo de aceite a fuego medio-alto y cocina el pollo 5-6 minutos por cada lado, hasta que esté dorado y sin rosa en el centro. Déjalo reposar 5 minutos antes de cortarlo para que conserve sus jugos.",
+      "Mientras, separa las hojas de la lechuga romana, lávalas y sécalas muy bien con un paño o una centrifugadora: si queda agua, la salsa se diluirá. Trocéalas con las manos en trozos del tamaño de un bocado.",
+      "Con un pelador, saca lascas de queso parmesano. Corta el pollo ya reposado en tiras en diagonal.",
+      "En un bol grande, mezcla la lechuga con 3-4 cucharadas de salsa césar, removiendo con suavidad hasta que cada hoja quede ligeramente cubierta.",
+      "Reparte la lechuga aliñada en los platos y coloca encima el pollo templado, los picatostes y las lascas de parmesano.",
+      "Sirve enseguida para que los picatostes se mantengan crujientes, con un poco más de salsa aparte por si alguien quiere añadir."
+    ]
+  },
+  {
+    "id": "macarrones-bolonesa",
+    "titulo": "Macarrones a la boloñesa",
+    "categoria": "Pasta",
+    "tiempo": "40 min",
+    "dificultad": "Fácil",
+    "raciones": 4,
+    "nutricion": { "Calorías": "560 kcal", "Proteínas": "29 g", "Hidratos": "72 g", "Grasas": "17 g" },
+    "imagen": "Images/Recetas/macarrones.jpg",
+    "descripcion": "Los macarrones a la boloñesa son uno de esos platos que gustan a todo el mundo, de los que se repiten. Una salsa de carne y verduras cocinada despacio, con tomate que se concentra hasta quedar espesa y brillante, y pasta cocida al dente para recoger toda la salsa en cada bocado. No es una receta complicada, pero cuanto más tiempo la dejes cocer a fuego suave, mejor sabrá. Y si te sobra salsa, mañana estará todavía mejor.",
+    "ingredientes": [
+      "350 g de macarrones",
+      "300 g de carne picada",
+      "1 cebolla",
+      "1 zanahoria",
+      "400 g de tomate triturado",
+      "Queso rallado",
+      "Aceite de oliva",
+      "Sal"
+    ],
+    "pasos": [
+      "Pela y pica muy finas la cebolla y la zanahoria. Cuanto más pequeños sean los trozos, más se integrarán en la salsa.",
+      "Calienta 3 cucharadas de aceite de oliva en una sartén grande o cazuela a fuego medio. Sofríe la cebolla 5 minutos, añade la zanahoria y sigue otros 5, hasta que estén blandas y ligeramente doradas.",
+      "Sube el fuego a medio-alto, añade la carne picada y desmenúzala con una cuchara de madera. Cocínala 8-10 minutos, hasta que pierda el color rosado y empiece a dorarse. Sala.",
+      "Vierte el tomate triturado, mezcla bien y deja que llegue a un hervor suave.",
+      "Baja el fuego al mínimo, tapa parcialmente y cuece de 20 a 30 minutos, removiendo de vez en cuando. Si el tomate está ácido, puedes añadir una pizca de azúcar para compensarlo.",
+      "Mientras, cuece los macarrones en abundante agua hirviendo con sal (unos 10 g por litro), el tiempo del paquete menos 1 minuto, para que queden al dente. Reserva un cazo del agua de cocción.",
+      "Escurre la pasta y mézclala con la salsa en la sartén a fuego suave durante 1 minuto. Si ves que queda seca, añade un chorrito del agua de cocción.",
+      "Sirve en platos hondos y espolvorea generosamente con queso rallado por encima."
+    ]
+  },
+  {
+    "id": "pizza-margarita",
+    "titulo": "Pizza margarita casera",
+    "categoria": "Pizzas",
+    "tiempo": "1 h 15 min",
+    "dificultad": "Media",
+    "raciones": 2,
+    "nutricion": { "Calorías": "620 kcal", "Proteínas": "25 g", "Hidratos": "78 g", "Grasas": "23 g" },
+    "imagen": "Images/Recetas/pizza.jpg",
+    "descripcion": "Hacer una pizza margarita casera es más fácil de lo que parece, y el resultado supera con creces a la de la caja congelada. Con una masa fina que reposa y fermenta, una salsa de tomate sencilla, mozzarella que se funde y albahaca fresca por encima, consigues el sabor de las pizzerías italianas en tu propio horno. La clave está en el tiempo de reposo de la masa, en estirarla bien fina y en hornear a la máxima temperatura que permita tu horno.",
+    "ingredientes": [
+      "300 g de harina de fuerza",
+      "180 ml de agua templada",
+      "7 g de levadura seca",
+      "Tomate triturado",
+      "Mozzarella",
+      "Albahaca",
+      "Aceite de oliva",
+      "Sal"
+    ],
+    "pasos": [
+      "En un bol grande, mezcla los 300 g de harina de fuerza, los 7 g de levadura seca y una cucharadita de sal. Haz un hueco en el centro.",
+      "Añade los 180 ml de agua templada (tibia al tacto, ni fría ni caliente) y 2 cucharadas de aceite de oliva. Mezcla con las manos hasta formar una masa.",
+      "Amasa sobre una superficie ligeramente enharinada durante 10 minutos, hasta que quede lisa, elástica y deje de pegarse a las manos. Si está muy pegajosa, espolvorea un poco más de harina.",
+      "Forma una bola, ponla en un bol con unas gotas de aceite, cúbrela con un paño húmedo y déjala reposar 1 hora en un sitio templado, hasta que doble su tamaño.",
+      "Mientras reposa, prepara la salsa: mezcla el tomate triturado con una pizca de sal y un chorrito de aceite. No hace falta cocinarlo antes, se hará en el horno.",
+      "Precalienta el horno a 250 °C (o la temperatura máxima que tenga) con una bandeja dentro, para que esté muy caliente al meter la pizza.",
+      "Desgasa la masa apretándola suavemente y estírala con las manos o con un rodillo hasta que tenga unos 3-4 mm de grosor, formando un círculo y dejando el borde un poco más grueso.",
+      "Extiende una capa fina de tomate, dejando 1-2 cm libres en el borde. Reparte la mozzarella en trozos pequeños, bien escurrida para que no suelte agua y empape la masa.",
+      "Desliza la pizza sobre la bandeja caliente y hornéala 8-10 minutos, hasta que los bordes estén dorados y el queso burbujee.",
+      "Sácala del horno, reparte hojas de albahaca fresca por encima y un hilo de aceite de oliva. Corta y sirve enseguida."
+    ]
+  },
+  {
+    "id": "hamburguesa-casera",
+    "titulo": "Hamburguesa casera",
+    "categoria": "Platos principales",
+    "tiempo": "30 min",
+    "dificultad": "Fácil",
+    "raciones": 2,
+    "nutricion": { "Calorías": "650 kcal", "Proteínas": "35 g", "Hidratos": "48 g", "Grasas": "32 g" },
+    "imagen": "Images/Recetas/hamburguesa.jpg",
+    "descripcion": "Una buena hamburguesa casera no necesita más que carne de calidad, un buen pan y toppings frescos. Esta receta busca el equilibrio perfecto: carne jugosa con la costra tostada de la plancha, queso cheddar fundido, verduras crujientes y pan ligeramente tostado. El truco está en manipular lo mínimo la carne, no aplastarla mientras se cocina y dejar que repose un momento antes de montar.",
+    "ingredientes": [
+      "400 g de carne de ternera picada",
+      "2 panes de hamburguesa",
+      "Queso cheddar",
+      "Lechuga y tomate",
+      "Cebolla",
+      "Sal y pimienta"
+    ],
+    "pasos": [
+      "Saca la carne de la nevera 15 minutos antes de cocinarla. Divide los 400 g en dos porciones de 200 g y forma bolas sin apretar demasiado: cuanto menos se amase, más tierna quedará.",
+      "Aplasta cada bola hasta unos 2 cm de grosor y haz que sea un poco más ancha que el pan, porque se encoge al cocinar. Con el pulgar, haz un pequeño hueco en el centro para que no se abombe.",
+      "Prepara los toppings: lava y seca la lechuga, corta el tomate en rodajas y la cebolla en aros finos.",
+      "Calienta una plancha o sartén de hierro a fuego fuerte hasta que esté muy caliente.",
+      "Sazona las hamburguesas con sal y pimienta por ambos lados justo antes de ponerlas: si salas con mucha antelación, la carne se seca.",
+      "Cocina 4 minutos por el primer lado sin tocarlas ni aplastarlas, hasta que se forme una costra dorada. Dales la vuelta una sola vez.",
+      "Coloca el queso cheddar sobre cada hamburguesa nada más girarla y cocina 3 minutos más por el otro lado. Puedes tapar con un cuenco para que el queso se funda mejor.",
+      "Abre los panes y tuéstalos 1 minuto en la plancha, con la cara cortada hacia abajo, para que absorban algo de jugo y no se humedezcan con el tomate.",
+      "Monta: base de pan, lechuga, hamburguesa con el queso fundido, tomate, cebolla y la tapa del pan. Deja reposar un minuto antes de comer."
+    ]
+  },
+  {
+    "id": "salmon-al-horno",
+    "titulo": "Salmón al horno con limón",
+    "categoria": "Pescados",
+    "tiempo": "25 min",
+    "dificultad": "Fácil",
+    "raciones": 2,
+
+    "nutricion": { "Calorías": "360 kcal", "Proteínas": "31 g", "Hidratos": "18 g", "Grasas": "18 g" },
+    "imagen": "Images/Recetas/salmon.jpg",
+    "descripcion": "El salmón al horno con limón es la receta ideal para cuando quieres comer bien sin complicarte: se prepara en 10 minutos de trabajo y el horno hace el resto. El limón aporta frescor y acidez que equilibran la grasa del pescado, el ajo laminado le da aroma y las hierbas frescas lo rematan. Con el tiempo justo de horno queda jugoso y tierno por dentro, nunca seco. Va genial con verduras asadas, patatas o una ensalada.",
+    "ingredientes": [
+      "2 lomos de salmón",
+      "1 limón",
+      "2 dientes de ajo",
+      "Eneldo o perejil",
+      "Aceite de oliva",
+      "Sal y pimienta"
+    ],
+    "pasos": [
+      "Precalienta el horno a 200 °C con calor arriba y abajo y saca el salmón de la nevera unos minutos antes.",
+      "Seca bien los lomos con papel de cocina y revisa que no queden espinas; si encuentras alguna, retírala con unas pinzas.",
+      "Forra una bandeja con papel de horno y úntalo con un poco de aceite de oliva para que el pescado no se pegue.",
+      "Pela los ajos y córtalos en láminas finas. Lava el limón: corta la mitad en rodajas finas y exprime la otra mitad. Pica el eneldo o el perejil.",
+      "Coloca los lomos en la bandeja con la piel hacia abajo. Sazona con sal y pimienta, rocíalos con un chorrito de aceite y unas gotas de zumo de limón.",
+      "Reparte las láminas de ajo y la mitad de las hierbas por encima, y cubre cada lomo con unas rodajas de limón.",
+      "Hornea entre 12 y 15 minutos, según el grosor. Está listo cuando se ve opaco por fuera y se separa en lascas al pincharlo con un tenedor, pero sigue jugoso por dentro. Pasarse unos minutos de horno lo deja seco.",
+      "Sácalo y déjalo reposar 2 minutos. Espolvorea con el resto de las hierbas frescas, riega con el jugo de la bandeja y un poco más de limón, y sirve enseguida."
+    ]
+  },
+  {
+    "id": "pollo-al-curry",
+    "titulo": "Pollo al curry con arroz",
+    "categoria": "Platos principales",
+    "tiempo": "35 min",
+    "dificultad": "Fácil",
+    "raciones": 4,
+    "nutricion": { "Calorías": "540 kcal", "Proteínas": "32 g", "Hidratos": "55 g", "Grasas": "20 g" },
+    "imagen": "Images/Recetas/pollocurry.jpg",
+    "descripcion": "El pollo al curry con arroz es un plato de sabores cálidos y reconfortantes que se prepara en poco más de media hora. La pechuga se dora y se cuece suavemente en una salsa cremosa de cebolla, curry y nata o leche de coco, aromática y ligeramente picante según el curry que uses. Acompañado de arroz blanco suelto que recoja la salsa, es un plato completo y muy agradecido, ideal para cualquier día de la semana.",
+    "ingredientes": [
+      "500 g de pechuga de pollo",
+      "1 cebolla",
+      "2 cucharadas de curry",
+      "200 ml de nata o leche de coco",
+      "250 g de arroz",
+      "Aceite",
+      "Sal"
+    ],
+    "pasos": [
+      "Pela la cebolla y pícala fina. Corta la pechuga en dados de 2-3 cm y sazónalos con sal.",
+      "Pon el arroz en un colador y lávalo bajo agua fría hasta que el agua salga casi transparente: así quedará suelto.",
+      "Calienta 2 cucharadas de aceite en una sartén amplia o una cazuela a fuego medio-alto. Dora el pollo en dos tandas, sin amontonarlo, 3-4 minutos por tanda, hasta que esté dorado por fuera. Retíralo y resérvalo.",
+      "En la misma sartén, con los restos del dorado, baja a fuego medio y sofríe la cebolla 6-8 minutos, hasta que esté blanda y transparente.",
+      "Añade las 2 cucharadas de curry y cocina 1 minuto removiendo: se tuesta y libera todo su aroma. Cuida que no se queme.",
+      "Devuelve el pollo a la sartén y mézclalo bien con el sofrito. Vierte los 200 ml de nata o leche de coco y, si quieres más salsa, un chorrito de agua. Remueve.",
+      "Cuece a fuego suave 10-12 minutos, sin tapar, hasta que la salsa espese ligeramente y el pollo esté tierno. Prueba y rectifica de sal.",
+      "Mientras, cuece el arroz con una pizca de sal en agua (unas 2 medidas de agua por cada una de arroz), tapado y a fuego bajo durante 12-15 minutos. Apaga el fuego, déjalo reposar 5 minutos y desgrana con un tenedor.",
+      "Sirve el arroz en los platos y coloca el pollo con su salsa por encima."
+    ]
+  },
+  {
+    "id": "tiramisu",
+    "titulo": "Tiramisú",
+    "categoria": "Postres",
+    "tiempo": "30 min + reposo",
+    "dificultad": "Media",
+    "raciones": 6,
+    "nutricion": { "Calorías": "410 kcal", "Proteínas": "8 g", "Hidratos": "39 g", "Grasas": "25 g" },
+    "imagen": "Images/Recetas/tiramisu.jpg",
+    "descripcion": "El tiramisú es el postre italiano por excelencia: capas de bizcochos empapados en café, envueltas en una crema suave y aireada de mascarpone, con un toque amargo de cacao por encima. No lleva horno y sus ingredientes son pocos, pero el resultado tiene una textura y un sabor de pastelería. Lo mejor es hacerlo con antelación, porque el reposo en frío es lo que lo convierte en tiramisú: las capas se unen, la crema se asienta y el café se reparte por todo el postre.",
+    "ingredientes": [
+      "250 g de mascarpone",
+      "3 huevos",
+      "80 g de azúcar",
+      "Bizcochos de soletilla",
+      "200 ml de café fuerte",
+      "Cacao en polvo"
+    ],
+    "pasos": [
+      "Prepara 200 ml de café fuerte, déjalo enfriar por completo y, si quieres, endúlzalo ligeramente. Nunca mojes los bizcochos en café caliente.",
+      "Separa las claras de las yemas de los 3 huevos en dos boles, con cuidado de que no caiga nada de yema en las claras. Como el tiramisú lleva huevo crudo, usa huevos muy frescos o pasteurizados.",
+      "Bate las yemas con los 80 g de azúcar con unas varillas durante 4-5 minutos, hasta que blanqueen y casi dupliquen su volumen.",
+      "Añade los 250 g de mascarpone en dos veces e intégralo con una espátula, con movimientos suaves, hasta obtener una crema lisa.",
+      "Monta las claras a punto de nieve firme en un bol limpio y seco. Si el bol tiene restos de grasa, no montarán bien.",
+      "Incorpora las claras montadas a la crema de mascarpone en tres veces, con movimientos envolventes de abajo hacia arriba para no perder aire.",
+      "Moja rápidamente los bizcochos de soletilla en el café, 1-2 segundos por cada lado, sin empaparlos, y colócalos en una fuente cubriendo el fondo en una capa.",
+      "Cubre con la mitad de la crema y alísala. Repite con otra capa de bizcochos mojados y el resto de la crema, y alisa la superficie.",
+      "Tapa con film y refrigera al menos 4 horas; lo ideal es dejarlo toda la noche.",
+      "Justo antes de servir, espolvorea el cacao en polvo con un colador fino para que quede una capa uniforme. Corta con un cuchillo mojado en agua caliente para obtener porciones limpias."
+    ]
+  },
+  {
+    "id": "brownie-de-chocolate",
+    "titulo": "Brownie de chocolate",
+    "categoria": "Postres",
+    "tiempo": "40 min",
+    "dificultad": "Fácil",
+    "raciones": 8,
+    "nutricion": { "Calorías": "360 kcal", "Proteínas": "5 g", "Hidratos": "42 g", "Grasas": "20 g" },
+    "imagen": "Images/Recetas/brownie.jpg",
+    "descripcion": "El brownie es el mejor amigo de los amantes del chocolate: un bizcocho denso, húmedo y profundamente achocolatado, con la superficie crujiente y brillante que lo caracteriza y el interior casi fundido. Se hace en un bol, sin batidora y en media hora, y admite nueces troceadas para darle un contraste crujiente. La clave es no pasarse de horno: un brownie ligeramente poco hecho en el centro es un brownie perfecto.",
+    "ingredientes": [
+      "200 g de chocolate negro",
+      "150 g de mantequilla",
+      "3 huevos",
+      "150 g de azúcar",
+      "80 g de harina",
+      "Nueces (opcional)"
+    ],
+    "pasos": [
+      "Precalienta el horno a 180 °C con calor arriba y abajo. Forra un molde cuadrado de unos 20 cm con papel de horno, dejando que sobresalga por los lados para poder sacar el brownie después.",
+      "Trocea el chocolate y la mantequilla y fúndelos juntos al baño maría o en el microondas a intervalos de 30 segundos, removiendo hasta que queden lisos. Déjalo templar 5 minutos: si está muy caliente, cuajará los huevos.",
+      "En otro bol, bate los 3 huevos con los 150 g de azúcar durante 2-3 minutos, hasta que la mezcla esté espumosa y algo más clara. Este paso es lo que da la costra brillante característica.",
+      "Añade el chocolate fundido a los huevos poco a poco, removiendo hasta que todo esté integrado.",
+      "Tamiza los 80 g de harina sobre la mezcla y remueve con una espátula con movimientos envolventes, solo hasta que no se vea harina. Si bates de más, el brownie quedará seco.",
+      "Si usas nueces, trocéalas e incorpóralas a la masa, reservando unas pocas para decorar la superficie.",
+      "Vierte la masa en el molde, alísala y hornea entre 22 y 25 minutos. Al pinchar con un palillo debe salir con algunas migas húmedas, no completamente limpio ni líquido.",
+      "Saca el molde y deja enfriar al menos 30 minutos. Para cortes limpios, refrigéralo 1 hora y córtalo en cuadrados con un cuchillo caliente."
+    ]
+  },
+  {
+    "id": "tarta-de-queso",
+    "titulo": "Tarta de queso al horno",
+    "categoria": "Postres",
+    "tiempo": "1 h",
+    "dificultad": "Media",
+    "raciones": 8,
+    "nutricion": { "Calorías": "390 kcal", "Proteínas": "8 g", "Hidratos": "29 g", "Grasas": "27 g" },
+    "imagen": "Images/Recetas/tartaqueso.jpg",
+    "descripcion": "Esta tarta de queso al horno, sin base de galleta, enamora por su textura cremosa y su superficie tostada y caramelizada, casi quemada, en su punto justo. Se hace mezclando pocos ingredientes en un solo bol, y el horno alto se encarga de dorar el exterior mientras el centro queda tembloroso y sedoso. Es una tarta que no se complica: su gracia es precisamente su aire rústico. Si puedes, hazla el día anterior, porque en frío gana sabor y consistencia.",
+    "ingredientes": [
+      "500 g de queso crema",
+      "200 ml de nata",
+      "4 huevos",
+      "150 g de azúcar",
+      "1 cucharada de harina"
+    ],
+    "pasos": [
+      "Saca el queso crema, la nata y los huevos de la nevera 30 minutos antes: a temperatura ambiente se mezclan sin grumos.",
+      "Precalienta el horno a 220 °C con calor arriba y abajo. Forra un molde desmontable de 20-22 cm con papel de horno arrugado, de modo que se adapte al molde y sobresalga por los bordes.",
+      "En un bol grande, bate el queso crema con los 150 g de azúcar hasta que esté suave, unos 2 minutos.",
+      "Añade los huevos de uno en uno, batiendo lo justo tras cada uno para que se integren.",
+      "Incorpora la nata y la cucharada de harina y mezcla hasta obtener una crema líquida y homogénea. No batas de más para no meter demasiado aire.",
+      "Vierte la mezcla en el molde y golpéalo suavemente contra la encimera para eliminar las burbujas.",
+      "Hornea 35-40 minutos, hasta que la superficie esté muy dorada, casi oscura, y el centro tiemble ligeramente al moverla. No abras el horno durante los primeros 25 minutos.",
+      "Apaga el horno y deja la tarta dentro 10 minutos con la puerta entreabierta, para que no se agriete por un cambio brusco de temperatura.",
+      "Sácala y deja que se enfríe a temperatura ambiente. Después refrigérala al menos 4 horas, mejor 8, y desmolda con cuidado. Se sirve fría o a temperatura ambiente."
+    ]
+  },
+  {
+    "id": "tortitas-americanas",
+    "titulo": "Tortitas americanas",
+    "categoria": "Desayunos",
+    "tiempo": "20 min",
+    "dificultad": "Fácil",
+    "raciones": 4,
+    "nutricion": { "Calorías": "330 kcal", "Proteínas": "9 g", "Hidratos": "45 g", "Grasas": "13 g" },
+    "imagen": "Images/Recetas/tortitas.jpg",
+    "descripcion": "Las tortitas americanas son el desayuno de fin de semana por excelencia: gruesas, esponjosas y doradas, con ese aroma a mantequilla que invita a sentarse a la mesa sin prisa. La masa se prepara en cinco minutos con ingredientes que probablemente ya tienes en casa y se cocina en sartén en pocos minutos. Servidas con sirope, fruta fresca, nata o lo que se te antoje, son un plan perfecto para empezar el día con buen pie.",
+    "ingredientes": [
+      "200 g de harina",
+      "250 ml de leche",
+      "1 huevo",
+      "2 cucharadas de azúcar",
+      "1 sobre de levadura química",
+      "Mantequilla"
+    ],
+    "pasos": [
+      "Funde 2 cucharadas de mantequilla (unos 30 g) en un cazo o en el microondas y déjala templar. Reserva un poco más para untar la sartén.",
+      "En un bol grande, mezcla los 200 g de harina, el sobre de levadura química y las 2 cucharadas de azúcar.",
+      "En otro bol, bate el huevo, añade los 250 ml de leche y la mantequilla fundida templada, y mezcla bien.",
+      "Vierte los ingredientes líquidos sobre los secos y remueve con unas varillas o una cuchara solo hasta que se integren. Quedarán pequeños grumos y es normal; si bates de más, las tortitas saldrán duras.",
+      "Deja reposar la masa 5-10 minutos, para que la levadura empiece a trabajar y queden más esponjosas.",
+      "Calienta una sartén antiadherente a fuego medio y úntala con un poco de mantequilla, retirando el exceso con papel de cocina.",
+      "Vierte un cazo de masa (unos 60-80 ml) por tortita, sin que se toquen entre sí. Cocina unos 2 minutos, hasta que se formen burbujas en la superficie y los bordes parezcan secos.",
+      "Dale la vuelta con una espátula y cocina 1-2 minutos más, hasta que estén doradas por ambos lados.",
+      "Mantén las tortitas calientes en un plato tapado mientras haces el resto y sírvelas apiladas con tus acompañamientos favoritos."
+    ]
+  },
+  {
+    "id": "tostada-de-aguacate",
+    "titulo": "Tostada de aguacate y huevo",
+    "categoria": "Desayunos",
+    "tiempo": "10 min",
+    "dificultad": "Fácil",
+    "raciones": 1,
+    "nutricion": { "Calorías": "370 kcal", "Proteínas": "14 g", "Hidratos": "35 g", "Grasas": "20 g" },
+    "imagen": "Images/Recetas/tostada.jpg",
+    "descripcion": "La tostada de aguacate con huevo es el desayuno, merienda o cena ligera que combina lo mejor de tres mundos: el crujiente del pan tostado, la cremosidad del aguacate y la yema del huevo, que se funde sobre todo lo demás. Se prepara en diez minutos y es completa, nutritiva y muy vistosa. El truco está en elegir un aguacate bien maduro, darle un buen toque de limón y cocinar el huevo con la yema todavía jugosa.",
+    "ingredientes": [
+      "2 rebanadas de pan",
+      "1 aguacate maduro",
+      "1 huevo",
+      "Zumo de limón",
+      "Sal y pimienta",
+      "Aceite de oliva"
+    ],
+    "pasos": [
+      "Elige un aguacate maduro: al presionarlo suavemente debe ceder un poco. Ábrelo por la mitad, retira el hueso y saca la pulpa con una cuchara.",
+      "Chafa la pulpa en un bol con un tenedor, dejando algunos trocitos para que tenga textura, y aliña con zumo de limón, sal y pimienta. El limón aporta frescor y evita que el aguacate se oscurezca.",
+      "Tuesta las 2 rebanadas de pan en la tostadora o en una sartén, hasta que estén doradas y crujientes por ambos lados.",
+      "Calienta un chorrito de aceite de oliva en una sartén a fuego medio-alto, casca el huevo y cocínalo 2-3 minutos, hasta que la clara cuaje y la yema siga líquida. Si lo prefieres escalfado, cuécelo unos 3 minutos en agua hirviendo suave.",
+      "Extiende el aguacate machacado generosamente sobre las dos tostadas, llegando hasta los bordes.",
+      "Corona una de las tostadas con el huevo; la otra puede quedarse solo con aguacate, o puedes preparar un segundo huevo si tienes más hambre.",
+      "Termina con pimienta recién molida, un hilo de aceite de oliva y un poco más de sal si hace falta. Cómela enseguida, mientras el pan está crujiente."
+    ]
+  },
+  {
+    "id": "crema-de-calabaza",
+    "titulo": "Crema de calabaza",
+    "categoria": "Cremas y sopas",
+    "tiempo": "35 min",
+    "dificultad": "Fácil",
+    "raciones": 4,
+    "nutricion": { "Calorías": "180 kcal", "Proteínas": "4 g", "Hidratos": "25 g", "Grasas": "7 g" },
+    "imagen": "Images/Recetas/cremacalabaza.jpg",
+    "descripcion": "La crema de calabaza es un plato de cuchara suave, aterciopelado y de un color anaranjado intenso que alegra cualquier mesa de otoño o invierno. Con apenas unas verduras y un buen caldo se consigue una textura sedosa y un sabor dulce y reconfortante. La patata aporta cuerpo y el puerro un toque aromático. Se prepara en media hora, se congela estupendamente y admite muchos acompañamientos: semillas, picatostes o un hilo de aceite de oliva por encima.",
+    "ingredientes": [
+      "600 g de calabaza",
+      "1 puerro",
+      "1 patata",
+      "1 l de caldo de verduras",
+      "Aceite de oliva",
+      "Sal"
+    ],
+    "pasos": [
+      "Pela la calabaza con un cuchillo grande y resistente, retira las pepitas y la parte fibrosa y córtala en dados de 2-3 cm. Si cuesta pelarla, calienta la pieza entera 2-3 minutos en el microondas para ablandar la piel.",
+      "Pela la patata y córtala en dados parecidos. Limpia bien el puerro, porque suele tener tierra entre las capas, retira la parte verde más dura y córtalo en rodajas finas.",
+      "Calienta 3 cucharadas de aceite de oliva en una olla a fuego medio y sofríe el puerro unos 5 minutos, hasta que esté blando y transparente, sin que se dore.",
+      "Añade la calabaza y la patata y rehógalas 3-4 minutos, removiendo de vez en cuando.",
+      "Vierte el litro de caldo de verduras, que debe cubrir casi por completo las verduras. Cuando hierva, baja el fuego, tapa y cuece 20 minutos, hasta que la calabaza y la patata se deshagan al pincharlas.",
+      "Tritura con la batidora de mano directamente en la olla durante 1-2 minutos, hasta obtener una crema fina y sin grumos. Si queda muy espesa, añade un poco de caldo caliente; si queda ligera, cuécela unos minutos más sin tapar.",
+      "Prueba y rectifica de sal. Sirve la crema muy caliente con un hilo de aceite de oliva por encima."
+    ]
+  },
+  {
+    "id": "huevos-rotos",
+    "titulo": "Huevos rotos con jamón",
+    "categoria": "Platos principales",
+    "tiempo": "25 min",
+    "dificultad": "Fácil",
+    "raciones": 2,
+    "nutricion": { "Calorías": "590 kcal", "Proteínas": "29 g", "Hidratos": "42 g", "Grasas": "35 g" },
+    "imagen": "Images/Recetas/huevos.jpg",
+    "descripcion": "Los huevos rotos con jamón son un plato tan sencillo como irresistible: patatas fritas doradas y crujientes, huevos fritos con la yema líquida y lonchas de jamón serrano que se templan con el calor. Se rompen en la mesa para que la yema se mezcle con las patatas, y ahí está toda la magia. Es de esas recetas donde el producto lo es todo: buenas patatas, huevos frescos y jamón de calidad.",
+    "ingredientes": [
+      "3 patatas grandes",
+      "4 huevos",
+      "100 g de jamón serrano",
+      "Aceite de oliva",
+      "Sal"
+    ],
+    "pasos": [
+      "Pela las patatas, lávalas y córtalas en bastones o rodajas de 1 cm de grosor. Sécalas muy bien con un paño: si tienen humedad, el aceite salpicará y quedarán blandas.",
+      "Calienta abundante aceite de oliva en una sartén honda a fuego medio (unos 150-160 °C). Fríe las patatas en dos tandas durante 10-12 minutos, hasta que estén tiernas y empiecen a dorarse.",
+      "Sube el fuego a medio-alto los últimos 2-3 minutos para que queden doradas y crujientes por fuera. Escúrrelas en un colador, pásalas a papel absorbente y sálalas.",
+      "Deja un par de dedos de aceite en una sartén más pequeña y caliéntala a fuego medio-alto. Casca los huevos de uno en uno en un cuenco y deslízalos a la sartén, de dos en dos.",
+      "Fríe los huevos 1-2 minutos, rociando la clara con el aceite caliente, hasta que esté cuajada y con los bordes crujientes, pero con la yema líquida.",
+      "Reparte las patatas en dos platos, coloca encima los huevos fritos y cúbrelos con el jamón serrano en lonchas, que se templará con el calor.",
+      "Sirve enseguida. En la mesa, pincha las yemas con el tenedor y mezcla todo con las patatas y el jamón para que se rompan los huevos y se unan los sabores."
+    ]
+  },
+  {
+    "id": "guacamole",
+    "titulo": "Guacamole",
+    "categoria": "Entrantes",
+    "tiempo": "10 min",
+    "dificultad": "Fácil",
+    "raciones": 4,
+    "nutricion": { "Calorías": "190 kcal", "Proteínas": "3 g", "Hidratos": "10 g", "Grasas": "16 g" },
+    "imagen": "Images/Recetas/guacamole.jpg",
+    "descripcion": "El guacamole es la salsa mexicana más famosa del mundo, y con razón: cremoso, fresco, con el punto ácido de la lima y el aroma del cilantro y la cebolla. Con aguacates en su punto y cinco minutos de trabajo tienes una salsa que arrasa en cualquier mesa, sea con nachos, tacos, quesadillas o sobre una tostada. Lo importante es usar aguacates maduros, ser generoso con el sabor y consumirlo recién hecho, porque el aguacate se oxida rápido.",
+    "ingredientes": [
+      "3 aguacates maduros",
+      "1 tomate",
+      "1/2 cebolla",
+      "Cilantro",
+      "1 lima",
+      "Sal"
+    ],
+    "pasos": [
+      "Elige aguacates bien maduros, que cedan ligeramente al presionarlos. Ábrelos por la mitad, retira el hueso y saca la pulpa con una cuchara en un bol grande.",
+      "Exprime enseguida el zumo de la lima sobre la pulpa: la acidez evita que se oxide y da frescor.",
+      "Machaca con un tenedor hasta la textura que prefieras: cremosa, pero con algunos trozos para que tenga cuerpo.",
+      "Pela y pica muy fina la media cebolla. Si quieres que su picor sea más suave, enjuágala un minuto con agua fría y sécala. Corta el tomate en dados pequeños, retirando antes las semillas y el exceso de agua, para que no aguade el guacamole.",
+      "Lava y pica finamente el cilantro, incluyendo los tallos tiernos.",
+      "Añade la cebolla, el tomate y el cilantro al aguacate, sala (empieza con media cucharadita) y mezcla con cuidado.",
+      "Prueba con un nacho y ajusta al gusto: un poco más de sal, de lima o de cilantro.",
+      "Sírvelo enseguida. Si necesitas guardarlo, cubre la superficie con film transparente pegado al guacamole, para que no le dé el aire, y refrigéralo como máximo 1-2 horas."
+    ]
+  },
+  {
+    "id": "ensalada-de-pasta",
+    "titulo": "Ensalada de pasta",
+    "categoria": "Ensaladas",
+    "tiempo": "20 min",
+    "dificultad": "Fácil",
+    "raciones": 4,
+    "nutricion": { "Calorías": "410 kcal", "Proteínas": "18 g", "Hidratos": "54 g", "Grasas": "14 g" },
+    "imagen": "Images/Recetas/ensaladapasta.jpg",
+    "descripcion": "La ensalada de pasta es la solución perfecta para los días de calor, para llevar de tupper o para cuando no quieres complicarte. Es una receta fría, completa y colorida, con pasta cocida al dente, verduras frescas, atún y maíz dulce, aliñada con una vinagreta sencilla. Se prepara en poco rato, se puede hacer con antelación y mejora tras un reposo en la nevera, porque la pasta absorbe el aliño y los sabores se mezclan.",
+    "ingredientes": [
+      "250 g de pasta",
+      "1 lata de atún",
+      "2 tomates",
+      "1 pimiento",
+      "Maíz",
+      "Aceite de oliva",
+      "Vinagre",
+      "Sal"
+    ],
+    "pasos": [
+      "Pon a hervir abundante agua con sal en una olla grande (unos 10 g de sal por litro). Cuando hierva, añade la pasta y cuécela el tiempo indicado en el paquete, menos 1 minuto, para que quede bien al dente.",
+      "Mientras, lava el tomate y el pimiento. Corta los tomates en dados pequeños, quitando parte de las semillas si están muy acuosos, y el pimiento en dados finos.",
+      "Abre la lata de atún, escúrrela bien y desmenúzalo con un tenedor. Escurre también el maíz.",
+      "Escurre la pasta y enjuágala con agua fría para cortar la cocción y que no se pegue. Escúrrela muy bien: si queda agua, la ensalada quedará aguada.",
+      "Prepara el aliño en un cuenco pequeño: mezcla 4 cucharadas de aceite de oliva, 1 o 2 de vinagre y una pizca de sal, y bátelo con un tenedor para que emulsione.",
+      "En una ensaladera grande, mezcla la pasta con el tomate, el pimiento, el atún y el maíz. Vierte el aliño y remueve con cuidado.",
+      "Prueba y rectifica de sal y vinagre. Tápala y refrigérala al menos 30 minutos para que coja sabor. Antes de servir, remueve y añade un chorrito de aceite si se ha secado."
+    ]
+  }
+]

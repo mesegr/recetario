@@ -1,0 +1,71 @@
+.searchBar {
+  position: relative;
+  z-index: 10;
+}
+
+.searchBar.open form,
+.searchBar.open form:focus-within {
+  border-radius: var(--bar-r) var(--bar-r) 0 0;
+  border-color: var(--searchBorder);
+  border-bottom-color: transparent;
+  box-shadow: none;
+}
+
+/*------------RECOMENDACIONES------------*/
+
+.searchSuggestions {
+  position: absolute;
+  margin: 0;
+  padding: 0 0.4rem 0.5rem;
+  list-style: none;
+  background: var(--search);
+  border: 2px solid var(--searchBorder);
+  border-top: none;
+  border-radius: 0 0 var(--bar-r, 24px) var(--bar-r, 24px);
+  box-shadow: 0 14px 18px -10px var(--shadow);
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+}
+
+.searchSuggestions[hidden] {
+  display: none;
+}
+
+.searchSuggestions a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 12px;
+  color: var(--headerText);
+  text-decoration: none;
+}
+
+.searchSuggestions li.active a,
+.searchSuggestions a:hover {
+  background: var(--main);
+}
+
+.searchSuggestions img {
+  flex: none;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.suggestTitle {
+  display: block;
+  font-weight: 700;
+}
+
+.suggestCat {
+  display: block;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.searchSuggestions .noResults {
+  padding: 0.75rem 1rem;
+  color: var(--headerText);
+}

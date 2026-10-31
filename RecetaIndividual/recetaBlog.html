@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/Images/Webicon.png" />
+  <link rel="stylesheet" href="/Search/search.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="recetaBlogStyle.css" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="mainContainer">
+    <header class="containerItem header">
+      <a href="/index.html">
+        <img class="headerLogo" src="/Images/Logo.png" alt="Recetario, ir a la página principal">
+      </a>
+      <search class="searchBar">
+        <form>
+          <input type="search" name="q" placeholder="Buscar recetas..." aria-label="Buscar recetas">
+          <button type="submit">Buscar</button>
+        </form>
+      </search>
+      <button class="menuBtn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="aside">
+        <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+            fill="none" />
+        </svg>
+      </button>
+    </header>
+    <main class="containerItem main">
+      <img id="imagen" class="headImg" alt="imagen">
+      <h1 id="titulo" class="titulo"></h1>
+      <ul class="meta">
+        <li><span id="categoria"></span></li>
+        <li><span id="tiempo"></span></li>
+        <li> <span id="dificultad"></span></li>
+      </ul>
+      <p id="descripcion" class="descripcion"></p>
+      <div class="recipeDetails">
+        <section class="ingredientsBlock" aria-labelledby="ingredientesTitle">
+          <h2 class="ingredientesTitle" id="ingredientesTitle"></h2>
+          <ul class="ingredientes" id="ingredientes"></ul>
+        </section>
+
+        <section class="nutritionBlock" aria-labelledby="nutritionTitle">
+          <h2 class="nutritionTitle" id="nutritionTitle">Información nutricional</h2>
+          <table class="nutritionTable">
+            <thead>
+              <tr>
+                <th scope="col">Nutriente</th>
+                <th scope="col">Por ración</th>
+              </tr>
+            </thead>
+            <tbody id="nutrition"></tbody>
+          </table>
+        </section>
+      </div>
+      <h2 class="prepTitle">Preparación</h2>
+      <ol class="pasos" id="pasos"></ol>
+    </main>
+    <aside class="containerItem aside" id="aside">
+      <button class="asideClose" type="button" aria-label="Cerrar menú">✕</button>
+      <div class="asideContainer">
+        <h2 id="relacionadasTitle"></h2>
+        <div id="relacionadas" class="cards"></div>
+        <h2 class="recientes">Recientes</h2>
+        <div id="recientes" class="cards compact"></div>
+      </div>
+    </aside>
+    <footer class="containerItem footer">
+      <div class="footerSeparator"></div>
+      <div class="footerContent">
+        <div class="footerCol">
+          <h3>Contacto</h3>
+          <address>
+            <p><a href="">contacto@recetario.com</a></p>
+            <p><a href="">600 000 000</a></p>
+            <p><a href="">Vigo, Galicia</a></p>
+          </address>
+        </div>
+
+        <div class="footerCol">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="#">Aviso legal</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <p class="copyright">© 2026 Recetario. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+  <script src="js/receta.js" defer></script>
+  <script src="/Search/js/search.js" defer></script>
+  <script src="js/menu.js" defer></script>
+</body>
+
+</html>

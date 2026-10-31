@@ -1,0 +1,420 @@
+:root {
+  --bg: #c5a575;
+  --header: #eed2b8;
+  --headerText: #3d2c24;
+  --headerTextSpan: #ca6947;
+  --main: #fff0da;
+  --aside: #e5cba4;
+  --search: #fffdfc;
+  --searchBorder: #e3c3ae;
+  --serchHover: #a8552f;
+  --searchPlaceholder: #a58b78;
+  --footer: #846348;
+  --footerSep: #6b4b31;
+  --shadowOrange: rgba(201, 111, 69, 0.50);
+  --shadowBlack: rgba(46, 46, 46, 0.55);
+}
+
+/* ---------------------------------------------BODY------------------------------------------------ */
+
+body {
+  background: var(--bg);
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* ---------------------------------------------MAINCONTAINER------------------------------------------------ */
+
+.mainContainer {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto 1fr auto;
+  gap: 15px;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+/* ---------------------------------------------GENERALES------------------------------------------------ */
+
+/*------------H------------*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  color: var(--headerText);
+}
+
+/* ---------------------------------------------HEADER------------------------------------------------ */
+
+.header {
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  max-height: 180px;
+  background: var(--header);
+  border-radius: 0px 0px 16px 16px;
+}
+
+/*------------LOGO------------*/
+
+.headerLogo {
+  height: 95%;
+  width: auto;
+}
+
+.header>a {
+  height: 100%;
+}
+
+/*------------TITLE------------*/
+
+.headerText h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: var(--headerText);
+}
+
+.headerText h1 span {
+  color: var(--headerTextSpan);
+  font-weight: 800;
+  font-style: italic;
+}
+
+/*-----------------------------------------------MAIN-------------------------------------------------*/
+
+.main {
+  grid-area: main;
+  background: var(--main);
+  margin: 0 10vw;
+  border-radius: 20px;
+}
+
+/*------------SEARCHBAR------------*/
+
+.searchBar form {
+  display: flex;
+  width: min(80%, 1500px);
+  margin: 50 auto;
+  background: var(--search);
+  border: 2px solid var(--searchBorder);
+  border-radius: 999px;
+  overflow: hidden;
+  transition:
+    border-color 0.4s,
+    box-shadow 0.4s;
+}
+
+.searchBar input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.searchBar form:focus-within {
+  border-color: var(--headerTextSpan);
+  box-shadow: 0 0 0 4px var(--shadowOrange);
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 0.8rem 1.4rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+
+.searchBar input::placeholder {
+  color: var(--searchPlaceholder);
+}
+
+.searchBar button {
+  padding: 0 1.8rem;
+  border: none;
+  background: var(--headerTextSpan);
+  color: var(--search);
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.4s;
+}
+
+.searchBar button:hover {
+  background: var(--serchHover);
+}
+
+/*------------MAINTEXT------------*/
+
+.mainText {
+  width: min(80%, 900px);
+  margin: 80 auto;
+  text-align: center;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.textoCorto {
+  display: none;
+}
+
+/*------------MAINH1------------*/
+
+.mainH1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* ---------------------------------------------FOOTER------------------------------------------------ */
+
+.footer {
+  grid-area: footer;
+  background: var(--footer);
+  border-radius: 16px 16px 0px 0px;
+}
+
+.footerSeparator {
+  width: 100%;
+  height: 30px;
+  background: var(--footerSep);
+  border-radius: 16px 16px 0px 0px;
+}
+
+.footerContent {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+
+.footerCol h3 {
+  margin: 40 0 0.6rem;
+  font-size: 1.1rem;
+  color: var(--main);
+}
+
+/*------------FOOTERLI------------*/
+
+.footerCol p,
+.footerCol li {
+  margin: 0.25rem 0;
+  font-size: 0.96rem;
+}
+
+.footerCol li:last-child {
+  margin-bottom: 15;
+}
+
+.footerCol ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footerCol address {
+  font-style: normal;
+}
+
+/*------------FOOTER A------------*/
+
+.footer a {
+  color: var(--main);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--bg);
+  text-decoration: underline;
+}
+
+/*------------COPYRIGHT------------*/
+
+.copyright {
+  margin: 10;
+  padding-top: 1rem;
+  border-top: 1px solid var(--main);
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--main);
+}
+
+/* ---------------------------------------------MEDIA QUERIES------------------------------------------------ */
+
+/*------------TABLETS------------*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+  .mainContainer {
+    gap: 10px;
+    column-gap: 0;
+  }
+
+  .header {
+    gap: 25px;
+    max-height: 145px;
+  }
+
+  .headerLogo {
+    height: 88%;
+  }
+
+  .headerText h1 {
+    font-size: 2rem;
+  }
+
+  .main {
+    margin: 0 5vw;
+    border-radius: 16px;
+  }
+
+  .searchBar form {
+    width: 85%;
+    margin: 35px auto;
+  }
+
+  .searchBar button {
+    display: none;
+  }
+
+  .mainText {
+    width: 84%;
+    margin: 55px auto;
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  .mainH1 {
+    font-size: 2.5rem;
+  }
+
+  .carousel {
+    width: 92%;
+    margin: 2.5rem auto 5rem;
+  }
+
+  .carouselBtn {
+    display: none;
+  }
+
+  .footerContent {
+    gap: 12%;
+  }
+
+  .footerCol h3 {
+    margin-top: 30px;
+    font-size: 1rem;
+  }
+
+  .footerCol p,
+  .footerCol li {
+    font-size: 0.85rem;
+  }
+}
+
+/*------------MOVILES------------*/
+@media only screen and (max-width: 768px) {
+  .mainContainer {
+    min-height: 100vh;
+    min-height: 100dvh;
+    grid-template-rows: auto auto 1fr;
+    ;
+  }
+
+  .header {
+    gap: 0px;
+    max-height: 130px;
+  }
+
+  .headerLogo {
+    height: 88%;
+    margin-top: 5px;
+  }
+
+  .main {
+    margin: 0 4vw;
+  }
+
+  .searchBar form {
+    margin: 30px auto;
+    height: 40px;
+  }
+
+  .searchBar button {
+    display: none;
+  }
+
+  .mainText {
+    width: min(80%, 900px);
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 0.95rem;
+  }
+
+  .textoLargo {
+    display: none;
+  }
+
+  .textoCorto {
+    display: block;
+  }
+
+  .mainH1 {
+    font-size: 2.2rem;
+  }
+
+  .headerText h1 {
+    font-size: 1.35rem;
+  }
+
+  .footer {
+    justify-content: flex-start;
+    height: auto;
+    max-height: none;
+    display: flex;
+    flex-direction: column
+  }
+
+  .footerSeparator {
+    height: 20px;
+  }
+
+  .footerContent {
+    gap: 10%;
+  }
+
+  .footerCol {
+    flex: 0 0 auto;
+  }
+
+  .footerCol h3 {
+    margin: 8 0 0.3rem;
+    font-size: 1rem;
+    color: var(--main);
+  }
+
+  .footerCol p,
+  .footerCol li {
+    margin: 0.2rem 0;
+    font-size: 0.8rem;
+  }
+
+  .footerCol li:last-child {
+    margin-bottom: 5;
+  }
+
+  .copyright {
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+    margin-top: auto;
+  }
+}
