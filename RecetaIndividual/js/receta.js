@@ -133,6 +133,8 @@
     if (el) el.innerHTML = valor;
   };
   const urlDe = (x) => `/RecetaIndividual/recetaBlog.html?id=${x.id}`;
+  const urlCategoria = (categoria) =>
+    `/Categoria/categoria.html?tipo=${encodeURIComponent(categoria)}`;
 
   function tarjetas(idHueco, lista, mensajeVacio) {
     const el = document.getElementById(idHueco);
@@ -236,10 +238,9 @@
       html(
         "meta",
         `
-        <li>⏱ ${r.tiempo}</li>
-        <li>📊 ${r.dificultad}</li>
-        <li>🍽 ${r.raciones} raciones</li>
-        <li>🏷 ${r.categoria}</li>
+        <li class="metaCategory"><a href="${urlCategoria(r.categoria)}" aria-label="Ver recetas de ${r.categoria}">${r.categoria}</a></li>
+        <li>${r.tiempo}</li>
+        <li>${r.dificultad}</li>
       `,
       );
       html("ingredientes", r.ingredientes.map((i) => `<li>${i}</li>`).join(""));

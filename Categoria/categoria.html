@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/Search/search.css" />
+  <link rel="stylesheet" href="categoria.css" />
+  <link rel="icon" type="image/png" href="/Images/Webicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet" />
+  <title>Recetas por categoría | Recetario</title>
+</head>
+
+<body>
+  <div class="mainContainer">
+    <header class="containerItem header categoryHeader">
+      <a href="/index.html">
+        <img class="headerLogo" src="/Images/Logo.png" alt="Recetario, ir a la página principal" />
+      </a>
+      <div class="headerText">
+        <h1>Recetas por <span>categoría</span></h1>
+      </div>
+    </header>
+
+    <main class="containerItem main categoryMain">
+      <a class="backHome" href="/index.html">← Volver al inicio</a>
+      <div class="categoryIntro">
+        <div>
+          <p class="categoryEyebrow">Explora el recetario</p>
+          <h1 id="categoryTitle">Recetas</h1>
+          <p id="categoryDescription" class="categoryDescription"></p>
+        </div>
+        <search class="searchBar categorySearch">
+          <form>
+            <input type="search" name="q" placeholder="Buscar otra receta..." aria-label="Buscar recetas" />
+            <button type="submit">Buscar</button>
+          </form>
+        </search>
+      </div>
+
+      <nav class="categoryNavigator" aria-label="Otras categorías">
+        <p>También puedes explorar:</p>
+        <div id="categoryLinks" class="categoryLinks"></div>
+      </nav>
+
+      <section aria-labelledby="categoryTitle">
+        <div id="categoryGrid" class="categoryGrid"></div>
+      </section>
+
+      <section id="alternativesSection" class="alternativesSection" hidden aria-labelledby="alternativesTitle">
+        <p id="categoryNotice" class="categoryNotice"></p>
+        <h2 id="alternativesTitle">Otras recetas que te pueden gustar</h2>
+        <div id="alternativesGrid" class="categoryGrid"></div>
+      </section>
+    </main>
+
+    <footer class="containerItem footer">
+      <div class="footerSeparator"></div>
+      <div class="footerContent">
+        <div class="footerCol">
+          <h3>Contacto</h3>
+          <address>
+            <p><a href="mailto:contacto@recetario.com">contacto@recetario.com</a></p>
+            <p><a href="tel:600000000">600 000 000</a></p>
+            <p>Vigo, Galicia</p>
+          </address>
+        </div>
+        <div class="footerCol">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="#">Aviso legal</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© 2026 Recetario. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="js/categoria.js" defer></script>
+  <script src="/Search/js/search.js" defer></script>
+</body>
+
+</html>

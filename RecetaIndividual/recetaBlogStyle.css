@@ -75,6 +75,8 @@ body {
 }
 
 .meta li {
+  display: flex;
+  align-items: center;
   padding: 0.3rem 0.9rem;
   background: rgb(from var(--searchBorder) r g b / 15%);
   border: 1px solid var(--header);
@@ -83,6 +85,33 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
   color: #3b2a22;
+}
+
+.meta li.metaCategory {
+  padding: 0;
+  overflow: hidden;
+}
+
+.metaCategory a {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0.9rem;
+  border-radius: inherit;
+  color: inherit;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.metaCategory a:hover,
+.metaCategory a:focus-visible {
+  background: var(--headerTextSpan);
+  color: var(--search);
+  outline: none;
+}
+
+.meta li.metaCategory:has(a:hover),
+.meta li.metaCategory:has(a:focus-visible) {
+  border-color: var(--headerTextSpan);
 }
 
 /*------------INGREDIENTES------------*/
