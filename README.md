@@ -2,6 +2,12 @@
 
 Web de recetas de cocina con un diseño claro, responsive y centrado en facilitar la búsqueda y consulta de platos.
 
+<p align="center">
+  <img src="img/recetario1.jpg" width="32%" alt="Menú principal">
+  <img src="img/recetario2.jpg" width="32%" alt="Menú de receta">
+  <img src="img/recetario3.jpg" width="32%" alt="Menú categorias">
+</p>
+
 ## Web publicada
 
 Puedes visitar la versión desplegada aquí:
