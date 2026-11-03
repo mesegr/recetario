@@ -80,7 +80,7 @@ recetario/
 Es un proyecto estático, por lo que no necesita instalación de dependencias ni proceso de compilación.
 
 1. Descarga o clona el proyecto.
-2. Abre `index.html` en un navegador.
+2. Abre `index.html` con live server en visual code
 
 Para obtener una experiencia más fiel a la web publicada, también puedes abrir la carpeta con un servidor local estático.
 
