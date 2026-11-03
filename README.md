@@ -77,12 +77,12 @@ recetario/
 
 ## Cómo ejecutar el proyecto
 
-Es un proyecto estático, por lo que no necesita instalación de dependencias ni proceso de compilación.
+Es un proyecto estático, por lo que no necesita instalación de dependencias ni proceso de compilación. Eso sí, hay que servirlo desde un servidor local (abrir `index.html` con doble clic no carga los estilos ni las recetas, porque las rutas son absolutas).
 
 1. Descarga o clona el proyecto.
-2. Abre `index.html` con live server en visual code
-
-Para obtener una experiencia más fiel a la web publicada, también puedes abrir la carpeta con un servidor local estático.
+2. Elige una opción:
+   - **Visual Studio Code:** instala la extensión *Live Server*, haz clic derecho sobre `index.html` y elige *Open with Live Server*.
+   - **Python:** desde la carpeta del proyecto, ejecuta `python -m http.server 8000` y abre `http://localhost:8000`.
 
 ## Navegación
 
